@@ -34,10 +34,14 @@ nav ul {
 }
 
 nav ul li {
-    /* background-color: rgb(150, 235, 150); */
     padding: 1em;
     border-radius: 1em;
     font-size: 2em;
+}
+
+#themeToggle {
+    width: 1em;
+    height: 1em;
 }
 
 main {

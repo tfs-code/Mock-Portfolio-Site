@@ -2,15 +2,22 @@
 <head>
     <title>Tyler Fisher-Smith</title>
     <link href="/styles/style.css" rel="stylesheet" />
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js" defer></script>
 </head>
 <body>
     <nav>
-        <ul>
+        <ul id="navList">
             <li><a href="#about">About me</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li>
+                <img
+                    src="assets/icons/moon.svg"
+                    id="themeToggle"
+                    data-mode="light"
+                />
+            </li>
         </ul>
     </nav>
     <header>
@@ -38,37 +45,39 @@
                 </p>
             </div>
             <div id="skills">
+                <p>Below are some of the languages I'm more proficient in.</p>
                 <div id="skillset">
                     <img
                         class="codeLogo"
                         src="/assets/icons/html5.svg"
                         alt="html logo"
+                        id="html-img"
                     />
                     <img
                         class="codeLogo"
                         src="/assets/icons/css.svg"
                         alt="css logo"
+                        id="css-img"
                     />
                     <img
                         class="codeLogo"
                         src="/assets/icons/js.svg"
                         alt="javascript logo"
+                        id="js-img"
                     />
                     <img
                         class="codeLogo"
                         src="/assets/icons/py.svg"
                         alt="python logo"
+                        id="py-img"
                     />
                     <img
                         class="codeLogo"
                         src="/assets/icons/lua.svg"
                         alt="lua logo"
+                        id="lua-img"
                     />
                 </div>
-                <p>
-                    Shown above are some of the languages I'm more proficient
-                    in.
-                </p>
             </div>
         </div>
 
@@ -110,6 +119,7 @@
                 src="assets/icons/linkedin.svg"
                 class="contactLogo"
                 target="_blank"
+                id="linkedin-img"
             />
         </a>
         <a href="https://github.com/tfs-code">
@@ -117,6 +127,7 @@
                 src="assets/icons/github.svg"
                 class="contactLogo"
                 target="_blank"
+                id="github-img"
             />
         </a>
     </footer>
