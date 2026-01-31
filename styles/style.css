@@ -1,0 +1,103 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: rgb(177, 233, 177);
+    color: rgb(24, 41, 41);
+}
+
+header {
+    border-bottom: 1px solid black;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5em;
+    width: auto;
+    font-size: 2em;
+}
+header div {
+    text-align: center;
+}
+header img {
+    width: 10em;
+    height: 10em;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    margin: 1em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav ul li {
+    /* background-color: rgb(150, 235, 150); */
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 2em;
+}
+
+main {
+    margin: 1em;
+}
+
+footer {
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(24, 41, 41);
+}
+
+#about-skill {
+    border-bottom: solid 1px black;
+    display: flex;
+    padding: 1.2em;
+}
+
+#about {
+    font-size: 1.5em;
+    width: 50%;
+    padding: 1em;
+}
+
+#skills {
+    border-left: solid 1px black;
+    font-size: 2em;
+    text-align: center;
+    align-content: center;
+    padding: 1em;
+}
+
+.codeLogo {
+    height: 2em;
+    width: 2em;
+}
+
+.contactLogo {
+    height: 5em;
+    width: 5em;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#contact {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    text-align: center;
+}
+
+#pText {
+    text-align: center;
+    font-size: 2em;
+}
