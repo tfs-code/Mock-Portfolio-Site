@@ -105,3 +105,66 @@ a {
     text-align: center;
     font-size: 2em;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+
+    header img {
+        width: 6em;
+        height: 6em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        padding: 0.5em;
+        font-size: 1.5em;
+    }
+
+    #about-skill {
+        flex-direction: column;
+    }
+
+    #about {
+        width: 100%;
+        border-bottom: solid 1px black;
+    }
+
+    #skills {
+        border-left: none;
+        border-top: solid 1px black;
+    }
+
+    #projects {
+        flex-direction: column;
+    }
+
+    .contactLogo {
+        height: 3em;
+        width: 3em;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        margin: 0.5em;
+        padding: 0.25em;
+    }
+
+    nav {
+        margin: 0.5em;
+    }
+
+    main {
+        margin: 0.5em;
+    }
+}
